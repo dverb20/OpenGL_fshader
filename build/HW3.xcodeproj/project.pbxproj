@@ -1,0 +1,1250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		25F40DFE2689406385D11430 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5425597EE4344B7791426631 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				53A7FCFC9D984ACAB9D357B7 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		4A8CB8D34AF741D88047FCFB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 57320191B3494FA5AE82A7D1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A50D238596A840EDA8731A15 /* CMake Rules */,
+			);
+			dependencies = (
+				3F60A5B269294C5A8FC00A22 /* PBXTargetDependency */,
+				86E3A0A67C9F4103AA733B60 /* PBXTargetDependency */,
+				4BFFAD8F538145D681CCD64A /* PBXTargetDependency */,
+				B40C5921988E4B9CACAA4E5C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0045F3951ECB407C8D23D301 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 383FC43B3EFC470CB5CFACB1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
+		00B851F65A97422A83ED15DD /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Trackball.cpp */ = {isa = PBXBuildFile; fileRef = EAC0EEC5CE1E4DCA9C22495B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Trackball.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1523CB407DCB47D4A1CB48D9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 58E9BE0383E6426FA2C43065 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_joystick.h */; settings = {COMPILER_FLAGS = ""; }; };
+		23BA91FE1DAA408F94267A2C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 62E127C7FE6E42788FCB330C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/posix_tls.c */; settings = {COMPILER_FLAGS = ""; }; };
+		24FF8A216AFD4A9D845B940F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Angel.h */ = {isa = PBXBuildFile; fileRef = C43E84EAB6724A1FA569570E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Angel.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2816586CAD454673B1AFF82E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = D69AAD58016F48D79307FA13 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/input.c */; settings = {COMPILER_FLAGS = ""; }; };
+		33BBA1513107458BBC44A86F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders/fshader.glsl */ = {isa = PBXBuildFile; fileRef = 0C0FDCB1A6E74F55956C78BE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders/fshader.glsl */; settings = {COMPILER_FLAGS = ""; }; };
+		3574FDC023D64240850FE5A3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps/glad.c */ = {isa = PBXBuildFile; fileRef = EAAF0A6AD9AB4B0F881E8CA3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps/glad.c */; settings = {COMPILER_FLAGS = ""; }; };
+		426D68DFBB584489AAC6D8CA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 951FE9107D4D4184AB770904 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
+		46CA649E9C3249B9BA98BE12 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = 31B66FE89F9C4CAB956680F7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/internal.h */; settings = {COMPILER_FLAGS = ""; }; };
+		47DEBDAF72AB4224A0A679FA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = F6D376C3ECD9433893FA793A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4ADAB83C504C46AD907046EC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = 6E53D35EB23D4E43B25CDFB9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/context.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4B46A050385F4FF29AAA036C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders/vshader.glsl */ = {isa = PBXBuildFile; fileRef = 235247D322694A2BB99D5882 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders/vshader.glsl */; settings = {COMPILER_FLAGS = ""; }; };
+		4E75A52E8D8F4913B8DF0868 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = D4D42FA4873E498D89FAADD4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
+		56C1039A93714C27A8F546D9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/ObjMesh.h */ = {isa = PBXBuildFile; fileRef = 20E4675CCC194678ACDA41C3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/ObjMesh.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5753B402AFF745AAACE4EB7C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 96672C79B0FB4BF6B9D85090 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/vulkan.c */; settings = {COMPILER_FLAGS = ""; }; };
+		63D2B935B3F24AB89672338E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0E2150FB964E4E4EB65BB208 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		6AEC213AF4B644FA94B6761B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/CheckError.h */ = {isa = PBXBuildFile; fileRef = D5BE9847428A49FFBFE2824F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/CheckError.h */; settings = {COMPILER_FLAGS = ""; }; };
+		705A2E286E8E42F0B99B4C8D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/ObjMesh.cpp */ = {isa = PBXBuildFile; fileRef = E3229D9AF46F4FA5A01B50F9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/ObjMesh.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		70E233B952E24E2E8587F952 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 7DD71B2F03D14F06843BE3CE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include/GLFW/glfw3.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7142AC9230F64184BFBEB271 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 7F6D9A86B4774F0AAAF3AE9A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/nsgl_context.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7370DF37626F4D27915E6AFE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = DF29C3ADFAAB44AA9923BC8D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include/GLFW/glfw3native.h */; settings = {COMPILER_FLAGS = ""; }; };
+		779800D1110F4CF588F451B1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 8A6D2336C82041C5A6FEF76E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
+		792EBEDF79B54667B66CF8C6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = FD3752DEBC5C4F8285BF5F41 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		79B1C4E7D993408BBDCB9BCA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/HW3.cpp */ = {isa = PBXBuildFile; fileRef = E699868D9F894FDCB6E721B2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/HW3.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		97996928A0E246F3B3206024 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = F95C7EC442BA4810B157B57F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/window.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9813A36687D64AC1AABE5C0B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 990542987D5A428384FA8DC1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		9DEFEE3079F8436CBC5626EC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/CMakeFiles/HW3.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B9E561529556493EB2FFDBDD /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/CMakeFiles/HW3.dir/Info.plist */; settings = {COMPILER_FLAGS = ""; }; };
+		A30EA50EC1C0478788D25AF7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Trackball.h */ = {isa = PBXBuildFile; fileRef = 63C0DC360E414AB08BF5C6FB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Trackball.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A52FCC413CF744979996C07E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 32617080421649208937D2F0 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		B3D1D28A043F472AA59E4F9A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/vec.h */ = {isa = PBXBuildFile; fileRef = 072BEA0303E042B193434A32 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/vec.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C5623375639242C797676877 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 7E5F93F31C914DBA841CD904 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/posix_tls.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D09FDE3B97D547B982E900D9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/SourcePath.cpp */ = {isa = PBXBuildFile; fileRef = B0A2FEAB2DEF490488C336FE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/SourcePath.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D24F6928C2604F8EBA4415A4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 76E7945F3272469D9FE3AF21 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
+		D7B65F04C7654274A5DBCA57 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/SourcePath.h */ = {isa = PBXBuildFile; fileRef = 6E63DCFFCB1D41A09F5D3167 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/SourcePath.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D80B945AFC924D03A2D099E1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/mat.h */ = {isa = PBXBuildFile; fileRef = C3D354FF22F24AB7833CFE51 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/mat.h */; settings = {COMPILER_FLAGS = ""; }; };
+		DDC30E2DD0944D6EB5444EBC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 52FB9E3D0438446EAEE9A59D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/glfw_config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E759B000DEA34BD0B34C5512 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 1B87C8D39863407D944A5B8C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
+		EAFC6AFEF6754FC0B61CC07B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = CED8C8166C5D4F5098BD1E9C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F1D7AA4FCE9E4CDE92AE519F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps/glad/glad.h */ = {isa = PBXBuildFile; fileRef = 7747C84981B34C39871A2846 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps/glad/glad.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		19D739309E4F4F64ACB55D38 = {
+			isa = PBXBuildStyle;
+		};
+		794EFD32398B4D99B1A4479A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		824B96D3ED7B408FB477E40C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D59C73189A9642D9826EF453 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		EFAD06701E2E45C89217683E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		08EFA81728A24F89AC7EEFC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA748DF3ED964B9B9960D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A258B44E4E43F58B251F24;
+			remoteInfo = glfw;
+		};
+		1B1A3ADA5C0D4F70B782B2DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA748DF3ED964B9B9960D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CFCBD39EDF0483ABF54E155;
+			remoteInfo = HW3;
+		};
+		279FD7507C734B14B61665FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA748DF3ED964B9B9960D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F40DFE2689406385D11430;
+			remoteInfo = ZERO_CHECK;
+		};
+		3DCB7EA4FD9F473A8CBD5DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA748DF3ED964B9B9960D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F40DFE2689406385D11430;
+			remoteInfo = ZERO_CHECK;
+		};
+		57FB042C53CA4CA0BDAEA17A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA748DF3ED964B9B9960D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F40DFE2689406385D11430;
+			remoteInfo = ZERO_CHECK;
+		};
+		5B44CD394B9E4DC3B2C1639C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA748DF3ED964B9B9960D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFD214DE6704525AD7C0548;
+			remoteInfo = glad;
+		};
+		85097DDEE1F74529A9192211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA748DF3ED964B9B9960D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A258B44E4E43F58B251F24;
+			remoteInfo = glfw;
+		};
+		85339DFE7CC34CC7B4EFB86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA748DF3ED964B9B9960D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFD214DE6704525AD7C0548;
+			remoteInfo = glad;
+		};
+		AC2D445883CC45618476711C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA748DF3ED964B9B9960D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F40DFE2689406385D11430;
+			remoteInfo = ZERO_CHECK;
+		};
+		BD7DDA7BED7F4960992E974E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA748DF3ED964B9B9960D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A258B44E4E43F58B251F24;
+			remoteInfo = glfw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072BEA0303E042B193434A32 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = source/common/vec.h; sourceTree = SOURCE_ROOT; };
+		0C0FDCB1A6E74F55956C78BE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders/fshader.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader.glsl; path = shaders/fshader.glsl; sourceTree = SOURCE_ROOT; };
+		0E2150FB964E4E4EB65BB208 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1B87C8D39863407D944A5B8C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "glfw-3.2/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
+		200D82390A314161B090AAF2 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E4675CCC194678ACDA41C3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/ObjMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ObjMesh.h; path = source/common/ObjMesh.h; sourceTree = SOURCE_ROOT; };
+		235247D322694A2BB99D5882 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders/vshader.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader.glsl; path = shaders/vshader.glsl; sourceTree = SOURCE_ROOT; };
+		2BDE891681674637B7E1C4BA /* HW3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HW3; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B66FE89F9C4CAB956680F7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "glfw-3.2/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		32617080421649208937D2F0 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		383FC43B3EFC470CB5CFACB1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "glfw-3.2/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+		52FB9E3D0438446EAEE9A59D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		58E9BE0383E6426FA2C43065 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "glfw-3.2/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
+		62E127C7FE6E42788FCB330C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = "glfw-3.2/src/posix_tls.c"; sourceTree = SOURCE_ROOT; };
+		63C0DC360E414AB08BF5C6FB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Trackball.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Trackball.h; path = source/common/Trackball.h; sourceTree = SOURCE_ROOT; };
+		66BC9B68AF954357AA17974D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6E53D35EB23D4E43B25CDFB9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "glfw-3.2/src/context.c"; sourceTree = SOURCE_ROOT; };
+		6E63DCFFCB1D41A09F5D3167 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/SourcePath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SourcePath.h; path = source/common/SourcePath.h; sourceTree = SOURCE_ROOT; };
+		759D2B5F380B400199C1838B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		76E7945F3272469D9FE3AF21 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "glfw-3.2/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+		7747C84981B34C39871A2846 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps/glad/glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = "glfw-3.2/deps/glad/glad.h"; sourceTree = SOURCE_ROOT; };
+		7DD71B2F03D14F06843BE3CE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "glfw-3.2/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
+		7E5F93F31C914DBA841CD904 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = "glfw-3.2/src/posix_tls.h"; sourceTree = SOURCE_ROOT; };
+		7F6D9A86B4774F0AAAF3AE9A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "glfw-3.2/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
+		8A6D2336C82041C5A6FEF76E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "glfw-3.2/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+		951FE9107D4D4184AB770904 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "glfw-3.2/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
+		96672C79B0FB4BF6B9D85090 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "glfw-3.2/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		990542987D5A428384FA8DC1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "glfw-3.2/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		AD215E266D3B4DB4A69C1717 /* glad */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A2FEAB2DEF490488C336FE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/SourcePath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SourcePath.cpp; path = source/common/SourcePath.cpp; sourceTree = SOURCE_ROOT; };
+		B9E561529556493EB2FFDBDD /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/CMakeFiles/HW3.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/CMakeFiles/HW3.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		C3D354FF22F24AB7833CFE51 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/mat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.h; path = source/common/mat.h; sourceTree = SOURCE_ROOT; };
+		C43E84EAB6724A1FA569570E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Angel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Angel.h; path = source/common/Angel.h; sourceTree = SOURCE_ROOT; };
+		CED8C8166C5D4F5098BD1E9C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "glfw-3.2/src/monitor.c"; sourceTree = SOURCE_ROOT; };
+		D4D42FA4873E498D89FAADD4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "glfw-3.2/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
+		D5BE9847428A49FFBFE2824F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/CheckError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckError.h; path = source/common/CheckError.h; sourceTree = SOURCE_ROOT; };
+		D69AAD58016F48D79307FA13 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "glfw-3.2/src/input.c"; sourceTree = SOURCE_ROOT; };
+		DF29C3ADFAAB44AA9923BC8D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "glfw-3.2/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
+		E3229D9AF46F4FA5A01B50F9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/ObjMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ObjMesh.cpp; path = source/common/ObjMesh.cpp; sourceTree = SOURCE_ROOT; };
+		E699868D9F894FDCB6E721B2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/HW3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HW3.cpp; path = source/HW3.cpp; sourceTree = SOURCE_ROOT; };
+		EAAF0A6AD9AB4B0F881E8CA3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = "glfw-3.2/deps/glad.c"; sourceTree = SOURCE_ROOT; };
+		EAC0EEC5CE1E4DCA9C22495B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Trackball.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Trackball.cpp; path = source/common/Trackball.cpp; sourceTree = SOURCE_ROOT; };
+		F6D376C3ECD9433893FA793A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "glfw-3.2/src/init.c"; sourceTree = SOURCE_ROOT; };
+		F95C7EC442BA4810B157B57F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "glfw-3.2/src/window.c"; sourceTree = SOURCE_ROOT; };
+		FD3752DEBC5C4F8285BF5F41 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "glfw-3.2/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		12082B532C97415681C170E7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				47CEE705F3A8445EA63CD1E1 /* CMake Rules */,
+				66BC9B68AF954357AA17974D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		227664B1E1D249969501666E /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				486944268773497C909E0618 /* Header Files */,
+				902DDC91732A4E69A953B26E /* Source Files */,
+				0E2150FB964E4E4EB65BB208 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */,
+			);
+			name = glad;
+			sourceTree = "<group>";
+		};
+		46C9B9B51F2C482392B9254F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9E561529556493EB2FFDBDD /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/CMakeFiles/HW3.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		47CEE705F3A8445EA63CD1E1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		486944268773497C909E0618 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7747C84981B34C39871A2846 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps/glad/glad.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		497FB576A0104A168FA5FAC7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				52FB9E3D0438446EAEE9A59D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/glfw_config.h */,
+				7DD71B2F03D14F06843BE3CE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include/GLFW/glfw3.h */,
+				DF29C3ADFAAB44AA9923BC8D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include/GLFW/glfw3native.h */,
+				58E9BE0383E6426FA2C43065 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_joystick.h */,
+				D4D42FA4873E498D89FAADD4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_platform.h */,
+				31B66FE89F9C4CAB956680F7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/internal.h */,
+				7F6D9A86B4774F0AAAF3AE9A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/nsgl_context.h */,
+				7E5F93F31C914DBA841CD904 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4DA12524D84644FCA22905E8 = {
+			isa = PBXGroup;
+			children = (
+				AED4993087414A2193AD400D /* Sources */,
+				62D6A1C395184B6DA241CFE4 /* Resources */,
+				BEFF146418A849B98DDCACB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		532A7F1768C045EBABF83846 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				77104F16698948929BA0D842 /* Source Files */,
+				497FB576A0104A168FA5FAC7 /* Header Files */,
+				990542987D5A428384FA8DC1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		62D6A1C395184B6DA241CFE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		70E0EBD33BB94EAABB6278E1 /* HW3 */ = {
+			isa = PBXGroup;
+			children = (
+				F17CFE73803F43B4A7EBDABD /* Source Files */,
+				E48BB0EED34C4A9A87E6D22F /* Header Files */,
+				46C9B9B51F2C482392B9254F /* Resources */,
+				32617080421649208937D2F0 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */,
+				0C0FDCB1A6E74F55956C78BE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders/fshader.glsl */,
+				235247D322694A2BB99D5882 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders/vshader.glsl */,
+			);
+			name = HW3;
+			sourceTree = "<group>";
+		};
+		77104F16698948929BA0D842 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				76E7945F3272469D9FE3AF21 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_init.m */,
+				383FC43B3EFC470CB5CFACB1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_joystick.m */,
+				1B87C8D39863407D944A5B8C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_monitor.m */,
+				FD3752DEBC5C4F8285BF5F41 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_time.c */,
+				8A6D2336C82041C5A6FEF76E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_window.m */,
+				6E53D35EB23D4E43B25CDFB9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/context.c */,
+				F6D376C3ECD9433893FA793A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/init.c */,
+				D69AAD58016F48D79307FA13 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/input.c */,
+				CED8C8166C5D4F5098BD1E9C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/monitor.c */,
+				951FE9107D4D4184AB770904 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/nsgl_context.m */,
+				62E127C7FE6E42788FCB330C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/posix_tls.c */,
+				96672C79B0FB4BF6B9D85090 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/vulkan.c */,
+				F95C7EC442BA4810B157B57F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8B3901CFBCFA40D2B5577DD3 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C41BA7A014214B95B457D /* CMake Rules */,
+				759D2B5F380B400199C1838B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		902DDC91732A4E69A953B26E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF0A6AD9AB4B0F881E8CA3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps/glad.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AED4993087414A2193AD400D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				227664B1E1D249969501666E /* glad */,
+				70E0EBD33BB94EAABB6278E1 /* HW3 */,
+				12082B532C97415681C170E7 /* ALL_BUILD */,
+				8B3901CFBCFA40D2B5577DD3 /* ZERO_CHECK */,
+				EAA152446A1F4424A20E80F4 /* GLFW3 */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		BE7C41BA7A014214B95B457D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BEFF146418A849B98DDCACB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BDE891681674637B7E1C4BA /* HW3 */,
+				AD215E266D3B4DB4A69C1717 /* glad */,
+				200D82390A314161B090AAF2 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E48BB0EED34C4A9A87E6D22F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C43E84EAB6724A1FA569570E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Angel.h */,
+				D5BE9847428A49FFBFE2824F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/CheckError.h */,
+				20E4675CCC194678ACDA41C3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/ObjMesh.h */,
+				6E63DCFFCB1D41A09F5D3167 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/SourcePath.h */,
+				63C0DC360E414AB08BF5C6FB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Trackball.h */,
+				C3D354FF22F24AB7833CFE51 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/mat.h */,
+				072BEA0303E042B193434A32 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/vec.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EAA152446A1F4424A20E80F4 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				532A7F1768C045EBABF83846 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		F17CFE73803F43B4A7EBDABD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E699868D9F894FDCB6E721B2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/HW3.cpp */,
+				E3229D9AF46F4FA5A01B50F9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/ObjMesh.cpp */,
+				B0A2FEAB2DEF490488C336FE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/SourcePath.cpp */,
+				EAC0EEC5CE1E4DCA9C22495B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Trackball.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CFCBD39EDF0483ABF54E155 /* HW3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC931EE6910491F95599226 /* Build configuration list for PBXNativeTarget "HW3" */;
+			buildPhases = (
+				0BC6BE353B924C248FE65FC7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DD68C36BB244DDF960DF940 /* PBXTargetDependency */,
+				EA5D3ECBBD824D2AB18DA365 /* PBXTargetDependency */,
+				A29E0F89D29340DEB04E15C3 /* PBXTargetDependency */,
+			);
+			name = HW3;
+			productName = HW3;
+			productReference = 2BDE891681674637B7E1C4BA /* HW3 */;
+			productType = "com.apple.product-type.application";
+		};
+		C9A258B44E4E43F58B251F24 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234CBD4A3C1045B2AE89132F /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				DFF601D79DC8417F880E7487 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E88FE85BE2894C90A9B8495F /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 200D82390A314161B090AAF2 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCFD214DE6704525AD7C0548 /* glad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A332FC73E2A4FEDB76B00CA /* Build configuration list for PBXNativeTarget "glad" */;
+			buildPhases = (
+				C69B42BF93D840C088BD8F59 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77EC9A54795D4FC98F280923 /* PBXTargetDependency */,
+				0AA7A4D1DFB44246938FB2A2 /* PBXTargetDependency */,
+			);
+			name = glad;
+			productName = glad;
+			productReference = AD215E266D3B4DB4A69C1717 /* glad */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA748DF3ED964B9B9960D40F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0810;
+			};
+			buildConfigurationList = 31C9AF6D6A7A462498741214 /* Build configuration list for PBXProject "HW3" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				824B96D3ED7B408FB477E40C /* Debug */,
+				EFAD06701E2E45C89217683E /* Release */,
+				794EFD32398B4D99B1A4479A /* MinSizeRel */,
+				D59C73189A9642D9826EF453 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4DA12524D84644FCA22905E8;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				4A8CB8D34AF741D88047FCFB /* ALL_BUILD */,
+				2CFCBD39EDF0483ABF54E155 /* HW3 */,
+				25F40DFE2689406385D11430 /* ZERO_CHECK */,
+				DCFD214DE6704525AD7C0548 /* glad */,
+				C9A258B44E4E43F58B251F24 /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50E4E58450F24A21A35A3E12 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		53A7FCFC9D984ACAB9D357B7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dannyverb/Dropbox/Senior\\ Year/Graphics/hw3/hw3/build -f /Users/dannyverb/Dropbox/Senior\\ Year/Graphics/hw3/hw3/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9AA2081570594C9693BDFA9B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A50D238596A840EDA8731A15 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dannyverb/Dropbox/Senior\\ Year/Graphics/hw3/hw3/build -f /Users/dannyverb/Dropbox/Senior\\ Year/Graphics/hw3/hw3/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC6BE353B924C248FE65FC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B1C4E7D993408BBDCB9BCA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/HW3.cpp */,
+				705A2E286E8E42F0B99B4C8D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/ObjMesh.cpp */,
+				D09FDE3B97D547B982E900D9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/SourcePath.cpp */,
+				00B851F65A97422A83ED15DD /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common/Trackball.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69B42BF93D840C088BD8F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3574FDC023D64240850FE5A3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps/glad.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF601D79DC8417F880E7487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F6928C2604F8EBA4415A4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_init.m */,
+				0045F3951ECB407C8D23D301 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_joystick.m */,
+				E759B000DEA34BD0B34C5512 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_monitor.m */,
+				792EBEDF79B54667B66CF8C6 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_time.c */,
+				779800D1110F4CF588F451B1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/cocoa_window.m */,
+				4ADAB83C504C46AD907046EC /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/context.c */,
+				47DEBDAF72AB4224A0A679FA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/init.c */,
+				2816586CAD454673B1AFF82E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/input.c */,
+				EAFC6AFEF6754FC0B61CC07B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/monitor.c */,
+				426D68DFBB584489AAC6D8CA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/nsgl_context.m */,
+				23BA91FE1DAA408F94267A2C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/posix_tls.c */,
+				5753B402AFF745AAACE4EB7C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/vulkan.c */,
+				97996928A0E246F3B3206024 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AA7A4D1DFB44246938FB2A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F40DFE2689406385D11430 /* ZERO_CHECK */;
+			targetProxy = 57FB042C53CA4CA0BDAEA17A /* PBXContainerItemProxy */;
+		};
+		3F60A5B269294C5A8FC00A22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFD214DE6704525AD7C0548 /* glad */;
+			targetProxy = 85339DFE7CC34CC7B4EFB86C /* PBXContainerItemProxy */;
+		};
+		4BFFAD8F538145D681CCD64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CFCBD39EDF0483ABF54E155 /* HW3 */;
+			targetProxy = 1B1A3ADA5C0D4F70B782B2DE /* PBXContainerItemProxy */;
+		};
+		6DD68C36BB244DDF960DF940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFD214DE6704525AD7C0548 /* glad */;
+			targetProxy = 5B44CD394B9E4DC3B2C1639C /* PBXContainerItemProxy */;
+		};
+		77EC9A54795D4FC98F280923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A258B44E4E43F58B251F24 /* glfw */;
+			targetProxy = 08EFA81728A24F89AC7EEFC2 /* PBXContainerItemProxy */;
+		};
+		86E3A0A67C9F4103AA733B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A258B44E4E43F58B251F24 /* glfw */;
+			targetProxy = BD7DDA7BED7F4960992E974E /* PBXContainerItemProxy */;
+		};
+		A29E0F89D29340DEB04E15C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F40DFE2689406385D11430 /* ZERO_CHECK */;
+			targetProxy = AC2D445883CC45618476711C /* PBXContainerItemProxy */;
+		};
+		B40C5921988E4B9CACAA4E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F40DFE2689406385D11430 /* ZERO_CHECK */;
+			targetProxy = 3DCB7EA4FD9F473A8CBD5DE0 /* PBXContainerItemProxy */;
+		};
+		E88FE85BE2894C90A9B8495F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F40DFE2689406385D11430 /* ZERO_CHECK */;
+			targetProxy = 279FD7507C734B14B61665FE /* PBXContainerItemProxy */;
+		};
+		EA5D3ECBBD824D2AB18DA365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A258B44E4E43F58B251F24 /* glfw */;
+			targetProxy = 85097DDEE1F74529A9192211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		028262E021274930AB2773D9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", );
+				INFOPLIST_FILE = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/CMakeFiles/HW3.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/RelWithDebInfo/libglfw3.a\" \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/RelWithDebInfo/libglad.a\" \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/RelWithDebInfo/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HW3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		0A773037D6A64AC592C951FA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		0AF204B33AC14E548E6C79B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		0D8950D0711D47C08535144E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/build";
+			};
+			name = Release;
+		};
+		3DD8FAB2C66A46D8982132E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		5BA094DE5DC94232B71BF2F7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/build";
+			};
+			name = MinSizeRel;
+		};
+		5D83F441FB2F4677BB44ED7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		6826C7978F8C4F4BB45482A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		6B5ACBBB2BAF4ADD9705352A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		6D4313AB0C60421791979F67 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		7C35792ACA1F42D99462C61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8165CC8F5FD04A8C9A02D8F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		8ED01850DF884CC190E807AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		91EF53C554614D719D3C855A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		9BFD83370E984F4C92C7753A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/build";
+			};
+			name = Debug;
+		};
+		9C16608767784151B9ABE9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", );
+				INFOPLIST_FILE = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/CMakeFiles/HW3.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/Release/libglfw3.a\" \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/Release/libglad.a\" \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/Release/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HW3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		A1F0D250E2EA4EF49B3B71EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", );
+				INFOPLIST_FILE = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/CMakeFiles/HW3.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/MinSizeRel/libglfw3.a\" \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/MinSizeRel/libglad.a\" \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/MinSizeRel/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HW3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C55FF63FBC514950B7C92A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		C8683A79AD114ED793929434 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		CC30F4CE5575445E974B634E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		CF0841A36E944237986C7F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		D78C966B36744933BDB52ACD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		DF7C94410CB945189C7F70BF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		EAAFE4BC00814D4B9FA409ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/deps\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/source/common\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/shaders\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/glfw-3.2/include\"", );
+				INFOPLIST_FILE = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/CMakeFiles/HW3.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/Debug/libglfw3.a\" \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/Debug/libglad.a\" \"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build/glfw-3.2/src/Debug/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HW3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw3/hw3/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		234CBD4A3C1045B2AE89132F /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0841A36E944237986C7F02 /* Debug */,
+				8ED01850DF884CC190E807AA /* Release */,
+				91EF53C554614D719D3C855A /* MinSizeRel */,
+				8165CC8F5FD04A8C9A02D8F8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		31C9AF6D6A7A462498741214 /* Build configuration list for PBXProject "HW3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFD83370E984F4C92C7753A /* Debug */,
+				0D8950D0711D47C08535144E /* Release */,
+				5BA094DE5DC94232B71BF2F7 /* MinSizeRel */,
+				6B5ACBBB2BAF4ADD9705352A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5425597EE4344B7791426631 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF204B33AC14E548E6C79B2 /* Debug */,
+				3DD8FAB2C66A46D8982132E6 /* Release */,
+				0A773037D6A64AC592C951FA /* MinSizeRel */,
+				6D4313AB0C60421791979F67 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57320191B3494FA5AE82A7D1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D83F441FB2F4677BB44ED7D /* Debug */,
+				6826C7978F8C4F4BB45482A9 /* Release */,
+				D78C966B36744933BDB52ACD /* MinSizeRel */,
+				CC30F4CE5575445E974B634E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A332FC73E2A4FEDB76B00CA /* Build configuration list for PBXNativeTarget "glad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C35792ACA1F42D99462C61A /* Debug */,
+				C55FF63FBC514950B7C92A84 /* Release */,
+				DF7C94410CB945189C7F70BF /* MinSizeRel */,
+				C8683A79AD114ED793929434 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBC931EE6910491F95599226 /* Build configuration list for PBXNativeTarget "HW3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAFE4BC00814D4B9FA409ED /* Debug */,
+				9C16608767784151B9ABE9F8 /* Release */,
+				A1F0D250E2EA4EF49B3B71EB /* MinSizeRel */,
+				028262E021274930AB2773D9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA748DF3ED964B9B9960D40F /* Project object */;
+}

@@ -19,11 +19,14 @@ void main()
   
   // Diffuse
   float Kd = 1.0;
-  vec4  diffuse = Kd*DiffuseProduct;
-  
+  float dotDiffuse = float(dot(N,LightPosition));
+  //vec4  diffuse = Kd*DiffuseProduct;
+  vec4 diffuse= DiffuseProduct * dotDiffuse;
   //Specular
-  float Ks = 0.0;
-  vec4  specular = Ks * SpecularProduct;
+  vec4 reflection = (-pos) - 2*float(dot(-pos,N))*N;
+  float dotSpecular = float(dot(reflection,pos));
+  float Ks = pow(dotSpecular,Shininess);
+  vec4  specular = 0.0*SpecularProduct * Ks;
   
   fragColor = ambient + diffuse + specular;
 }
